@@ -1,0 +1,116 @@
+
+  .orangeManBody{
+    width: 440px;
+    height: 430px;
+    border: solid 2px white;
+    border-radius: 400px;
+    position: relative;
+    left: 170px;
+    background-color: rgb(211, 120, 0);
+    background-image: /*radial-gradient*/(rgb(185, 185, 18),rgb(162, 179, 140), rgb(238, 130, 130));
+  }
+  
+  .alienEyeRight{
+    width: 120px;
+    height: 120px;
+    border: solid 5px rgb(226, 31, 31);
+    border-radius: 400px 25px;
+    transform: rotate(180deg);
+    position: relative;
+    left: 220px;
+    top: 45px;
+    background-color: black;
+    background-image: radial-gradient(
+    circle closest-side, #663700, black);
+  }
+
+.alienTear{
+  width: 10px;
+  height: 10px;
+  border: solid 2px black;
+  border-radius: 400px 25px;
+  transform: rotate(130deg);
+  position: relative;
+  left: -70px;
+  top: 75px;
+  background-color: black;
+  background-image: radial-gradient(
+  circle closest-side, #663700, rgba(0, 0, 0, 0.719));
+}
+  .alienEyeleft{
+    width: 120px;
+    height: 120px;
+    border: solid 5px rgb(226, 31, 31);
+    border-radius: 400px 25px;
+    transform: rotate(270deg);
+    position: relative;
+    left: 120px;
+    top: -5px;
+    background-color: black;
+    background-image: radial-gradient(
+    circle closest-side, #663700, black);
+   }
+  .alienMouth{
+    width: 100px;
+   height: 30px;
+   border: solid 6px #b40b81;
+   border-radius: 400px;
+   position: relative;
+   bottom: 20px;
+   transform: rotate(90deg);
+   right: -120px;
+   background-color: whitesmoke;
+   
+ }
+  
+  
+  
+  /*.rightEye {
+     width: 40px;
+    height: 30px;
+    border: solid 2px rgb(12, 12, 12);
+    border-radius: 400px;
+    position: absolute;
+    bottom: -29px;
+    transform: rotate(90deg);
+    right: 80px;
+    background-color: whitesmoke;
+    
+  }
+  .
+  
+  .leftPupil{width: 10px;
+    height: 10px;
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 400px 25px;
+    transform: rotate(222deg);
+    position: absolute;
+    left: 12px;
+    top: 8px;
+    background-color: black;
+    background-image: radial-gradient(
+    circle closest-side, #663700, rgb(114, 41, 41));
+    
+  
+  
+ 
+  
+  .rightLeg {
+    position: absolute;    
+    top: 190px;
+
+    transform: rotate(90deg);
+    border-left: 150px solid rgb(0, 0, 0);
+    border-right: 60px solid transparent;
+    border-top: 70px solid transparent;
+  }
+  .leftLeg{
+    position: absolute;    
+    left: -240px;
+    
+    transform: rotate(170deg);
+    border-left: 150px solid rgb(74, 101, 133);
+    border-right: 60px solid transparent;
+    border-top: 40px solid transparent;
+  }
+  
